@@ -1,13 +1,4 @@
-function name(n1,n2,n3){
-    console.log("hello,"+n1);
-    n2();
-    n3();
-}
-function name2(){
-    console.log("nice to meet");
-}
-function name3(){
-    console.log("bye");
-}
-name("rahul",name2,name3);
+const prompt=require('prompt-sync')();
+const a=prompt("what is your name:");
+console.log("hellow,"+a);
 
