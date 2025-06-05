@@ -1,5 +1,3 @@
-function greet(a,b){
-    return a+b;
-    
-}
-console.log(greet(10,20));
+const prompt = require('prompt-sync')();
+const name = prompt("What is your name? ");
+console.log("Hello, " + name + "!");
