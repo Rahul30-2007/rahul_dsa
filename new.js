@@ -1,5 +1,13 @@
-const add=function(a,b){
-    return a+b;
+function name(n1,n2,n3){
+    console.log("hello,"+n1);
+    n2();
+    n3();
 }
-console.log("addition");
-console.log(add(10,20));
+function name2(){
+    console.log("nice to meet");
+}
+function name3(){
+    console.log("bye");
+}
+name("rahul",name2,name3);
+
